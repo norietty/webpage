@@ -1,0 +1,26 @@
+$color = #33ccff
+.box{
+    background-color: $color;
+}
+span{
+    background-color: $color;
+}
+div{
+    h3{
+        color:blue;
+    }
+    p{
+        font-style: oblique;
+
+    }
+}
+%inherit{
+    font-size: 14px;
+    font-family: serif,fantasy,cursive;
+    font-weight: bold;
+}
+
+p{
+    @extend inherit;
+    font-weight: bold;
+}
